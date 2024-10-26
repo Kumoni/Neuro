@@ -1,0 +1,702 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.First-Screen {
+    background-image: url(imgs/First.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(135, 173, 182);
+    height: 100px;
+    align-items: center;
+}
+
+header > div {
+    display: flex;
+}
+
+header > div > ul {
+    display: flex;
+    list-style: none;
+}
+
+header > div > ul > li {
+    display: flex;
+    list-style: none;
+    padding-left: 90px;
+}
+
+header > div > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+header > div > div {
+    display: flex;
+    align-items: center;
+}
+
+header > div > div > a > img {
+    margin-right: 30px;
+}
+
+header > div > div > ul {
+    display: flex;
+    list-style: none;
+}
+
+header > div > div > ul > li {
+    padding-right: 70px;
+}
+
+header > div > div > ul > li > a {
+color: black;
+text-decoration: none;
+}
+
+.fs-text {
+    display: block;
+margin-left: 100px;
+margin-top: 80px;
+}
+
+.fs-text-big {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom:40px;
+    margin-left: 100px;
+}
+
+.fs-text-lil {
+    color: white;
+    font-size: 23px;
+    width: 280px;
+    margin-left: 100px;
+}
+
+.fs-but {
+margin-top: 40px;
+margin-left: 100px;
+}
+
+.fs-text > div > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.fs-text2 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 525px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+}
+
+.fs-text2 > div > p {
+    margin-left: 30px;
+    color: white;
+}
+
+.fs-text2 > div > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.fs-text2-but > a {
+    color: black;
+    text-decoration: none;
+    margin-left: 750px;
+    background-color: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+.js-clr {
+    width: auto;
+    height: 200px;
+    background-color: #F0FAF7;
+}
+
+.Second {
+    margin-top: 200px;
+    width: auto;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.Second > div {
+display: flex;
+justify-content: center;
+padding-left: 350px;
+}
+
+.fs-text-lil1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.fs-text-big1 {
+    display: flex;
+    text-align: center;
+    width: 460px;
+}
+
+.Second > div > img {
+    width: 500px;
+}
+
+.Third {
+    width: auto;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 760px;
+}
+
+.Third > div {
+display: flex;
+justify-content: center;
+}
+
+.kartochki {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-left: 250px;    
+}
+
+.kartochka1 {
+    background-color: #005466;
+    display: inline-block;
+    width: 300px;
+    height: 275px;
+    text-align: center;
+}
+
+.kartochka1 > div {
+    margin-top: 40px;
+}
+
+.kartochka1 > div > p {
+    color: white;
+}
+
+.kartochka1 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.kartochka2 {
+    background-color: #F7D8BF;
+    display: inline-block;
+    width: 300px;
+    height: 275px;
+    text-align: center;
+}
+
+.kartochka2 > div {
+    margin-top: 40px;
+}
+
+.kartochka2 > div > p {
+    color: #C47B59;
+}
+
+.kartochka2 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.kartochka3 {
+    background-color: rgb(217, 244, 250);
+    display: inline-block;
+    width: 300px;
+    height: 275px;
+    text-align: center;
+}
+
+.kartochka3 > div {
+    margin-top: 40px;
+}
+
+.kartochka3 > div > p {
+    color: #64BAA1;
+}
+
+.kartochka3 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Waves {
+    margin-top: 100px;
+    background-image: url(imgs/Waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+
+.Fourth {
+    display: flex;
+    text-align: center;
+    height: 1000px;
+    background-color: #005466;
+}
+
+.Fourth > div > img {
+    margin-top: -150px;
+    width: 750px;
+}
+
+.Fourthtext {
+    margin-top: 280px;
+    margin-left: 500px;
+}
+
+.Fs-text-big {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+
+.Fs-text-lil {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    width: 380px;
+}
+
+.cvet2 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.cvet {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.cyan {
+    background-color: #13C0D7;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+
+.orange {
+    background-color: #D53F23;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+
+.cvet > div > p {
+    color: white;
+    margin-left: 20px;
+}
+
+.Fourhtbut {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.Fourhtbut > a {
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.Waves-sand {
+    margin-top: -135px;
+    background-image: url(imgs/wavep.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+
+.Fifth {
+    display: flex;
+    background-color: #F7D8BF;
+    height: 900px;
+    width: auto;
+}
+
+.Fifth > div {
+    padding-top: 300px;
+    margin-left: 100px;
+    width: 250px;
+}
+
+
+.FS-text-big {
+    text-align: left;
+    color: #C47B59;
+    font-size: 50px;
+}
+
+.FS-text-lil {
+    color: #C47B59;
+    font-size: 17px;
+    text-align: left;
+    width: 370px;
+}
+
+.br {
+    background-color: #C47B59;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+
+.bor {
+    background-color: #EF9632;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+
+.cvet2 > div > p {
+    color: #C47B59;
+    margin-left: 20px;
+}
+
+.Fifthbut {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.Fifthbut > a {
+    color: #C47B59;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.Fifth > div > img {
+    margin-top: -230px;
+    margin-left: 600px;
+    width: 800px;
+}
+
+.Six {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-top: 200px;
+    height: 1125.33;
+}
+
+.Six > div > img {
+    width: 400px;
+}
+
+.Six-text {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.Six-text-big {
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+
+.Six-text-lil {
+    margin-top: 10px;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    width: 355px;
+}
+
+.Six-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.Six-but > a {
+    color: #000000;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.Seventh {
+    display: flex;
+    justify-content: center;
+    background-color: #F1FAF6;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.Seventh > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.Seventh > div > div > img {
+    width: 400px;
+    margin-right: 100px;
+}
+
+.Sev-text2 {
+    margin-top: 100px;
+}
+
+.Eight {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background-color: #FCF2F0;
+}
+
+.Eight > div > img {
+    display: flex;
+    width: 600px;
+    margin-top: 150px;
+    margin-right:100px;
+}
+
+.Eight-text {
+    margin-right: 200px;
+    margin-top: 300px;
+}
+
+.E-text-big {
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+
+.E-text-lil {
+    margin-top: 20px;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    width: 385px;
+}
+
+.E-but {
+    display: flex;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.E-but > a {
+    color: #000000;
+    text-decoration: none;
+    border-width: 2px;
+    border-bottom: solid;
+    text-align: left;
+    width: 140px;
+    padding-top: 10px;
+}
+
+.cyan-waves {
+        margin-top: -120px;
+        background-image: url(imgs/wavec.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 150px;
+        margin-bottom: -10px;
+}
+
+.Ninth {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    background-color: #64BAA1;
+}
+
+.Ninth > div > img {
+    display: flex;
+    width: 750px;
+    margin-top: -200px;
+}
+
+.Ninth-text {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.N-text-big {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.N-text-lil {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: left;
+    width: 371px;
+}
+
+.N-but {
+    display: flex;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.N-but > a {
+    color: #0A644A;
+    text-decoration: none;
+    border-width: 2px;
+    border-bottom: solid;
+    text-align: left;
+    width: 140px;
+    padding-top: 20px;
+}
+
+.Tenth {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+.Tenth-text {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.T-text-big {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.T-text-lil {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-align: center;
+}
+
+.Eleventh-bg {
+    background-image: url(imgs/ChyngaChanga.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+    margin-top: -250px;
+    margin-bottom: -200px;
+}
+
+.Eleventh-bg > div {
+    padding-top: 200px;
+}
+
+.El-text {
+    width:350px;
+    margin-left: 100px;
+}
+
+.El-text-big {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.El-but {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.El-but > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
